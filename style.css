@@ -1,0 +1,63 @@
+.btn-primary {
+  background-color: blue;
+  margin: 2px;
+  border-radius: 10px;
+  height: 30px;
+  width: 40px;
+}
+.btn-warning {
+  background-color: yellow;
+  margin: 2px;
+  border-radius: 10px;
+  height: 30px;
+  width: 60px;
+}
+.btn-danger {
+  background-color: red;
+  margin: 2px;
+  border-radius: 10px;
+  height: 30px;
+  width: 45px;
+}
+
+.container-5 {
+  border: 2px solid black;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: cursive;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url(https://ie2-gfebf.cdnppb.net/mexchangeblackjack/turbo/32/assets/gameView/tableBackground.png?v32);
+  color: #ffffff;
+}
+
+.flex-blackjack-row-1 div {
+  border: 2px solid black;
+  padding: 10px;
+  height: 350px;
+  text-align: center;
+  flex: 1;
+}
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
